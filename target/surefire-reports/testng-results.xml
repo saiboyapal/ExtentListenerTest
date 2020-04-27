@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="127010" started-at="2020-04-27T13:39:21 CDT" finished-at="2020-04-27T13:41:28 CDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="127010" started-at="2020-04-27T13:39:21 CDT" finished-at="2020-04-27T13:41:28 CDT">
+      <class name="com.crm.qa.tests.loginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.loginPageTest@7cbd213e]" name="setUp" is-config="true" duration-ms="41480" started-at="2020-04-27T13:40:04 CDT" finished-at="2020-04-27T13:40:45 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="validateLoginPageTitleTest()[pri:1, instance:com.crm.qa.tests.loginPageTest@7cbd213e]" name="validateLoginPageTitleTest" duration-ms="29" started-at="2020-04-27T13:40:46 CDT" description="Validate login page title" finished-at="2020-04-27T13:40:46 CDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Free CRM #1 cloud software for any business big or small] but found [Free CRM #1 cloud software for any business large or small]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Free CRM #1 cloud software for any business big or small] but found [Free CRM #1 cloud software for any business large or small]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.crm.qa.tests.loginPageTest.validateLoginPageTitleTest(loginPageTest.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitleTest -->
+        <test-method status="PASS" signature="validateCRMLogoTest()[pri:2, instance:com.crm.qa.tests.loginPageTest@7cbd213e]" name="validateCRMLogoTest" duration-ms="937" started-at="2020-04-27T13:40:47 CDT" description="Validate CRM logo" finished-at="2020-04-27T13:40:48 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCRMLogoTest -->
+        <test-method status="PASS" signature="validateLoginTest()[pri:3, instance:com.crm.qa.tests.loginPageTest@7cbd213e]" name="validateLoginTest" duration-ms="18421" started-at="2020-04-27T13:40:48 CDT" description="Validate Login feature" finished-at="2020-04-27T13:41:06 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.tests.loginPageTest@7cbd213e]" name="tearDown" is-config="true" duration-ms="-1588012888801" started-at="2020-04-27T13:41:28 CDT" finished-at="1969-12-31T18:00:00 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.tests.loginPageTest -->
+      <class name="com.crm.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.HomePageTest@192d3247]" name="setUp" is-config="true" duration-ms="25963" started-at="2020-04-27T13:39:38 CDT" finished-at="2020-04-27T13:40:04 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateHomePageTitleTest()[pri:1, instance:com.crm.qa.tests.HomePageTest@192d3247]" name="validateHomePageTitleTest" duration-ms="7" started-at="2020-04-27T13:41:06 CDT" finished-at="2020-04-27T13:41:06 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitleTest -->
+        <test-method status="PASS" signature="validateDealsLink()[pri:2, instance:com.crm.qa.tests.HomePageTest@192d3247]" name="validateDealsLink" duration-ms="222" started-at="2020-04-27T13:41:06 CDT" finished-at="2020-04-27T13:41:06 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDealsLink -->
+        <test-method status="PASS" signature="validateUsername()[pri:2, instance:com.crm.qa.tests.HomePageTest@192d3247]" name="validateUsername" duration-ms="93" started-at="2020-04-27T13:41:06 CDT" finished-at="2020-04-27T13:41:06 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsername -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.crm.qa.tests.HomePageTest@192d3247]" name="tearDown" is-config="true" duration-ms="207" started-at="2020-04-27T13:41:28 CDT" finished-at="2020-04-27T13:41:28 CDT">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATAUSER9-PC', ip: '192.168.29.200', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATAUSER9-PC', ip: '192.168.29.200', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.crm.qa.tests.HomePageTest.tearDown(HomePageTest.java:47)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+at org.testng.TestRunner.afterRun(TestRunner.java:849)
+at org.testng.TestRunner.run(TestRunner.java:590)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.tests.HomePageTest -->
+      <class name="com.crm.qa.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@3ecd23d9]" name="setUp" is-config="true" duration-ms="16756" started-at="2020-04-27T13:39:21 CDT" finished-at="2020-04-27T13:39:38 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateHeader()[pri:1, instance:com.crm.qa.tests.ContactsPageTest@3ecd23d9]" name="validateHeader" duration-ms="47" started-at="2020-04-27T13:41:06 CDT" finished-at="2020-04-27T13:41:06 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="validateContactsTable()[pri:3, instance:com.crm.qa.tests.ContactsPageTest@3ecd23d9]" name="validateContactsTable" duration-ms="11477" started-at="2020-04-27T13:41:06 CDT" finished-at="2020-04-27T13:41:18 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactsTable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.tests.ContactsPageTest@3ecd23d9]" name="tearDown" is-config="true" duration-ms="10300" started-at="2020-04-27T13:41:18 CDT" finished-at="2020-04-27T13:41:28 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.tests.ContactsPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

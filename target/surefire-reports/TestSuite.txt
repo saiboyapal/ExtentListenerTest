@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 130.722 s <<< FAILURE! - in TestSuite
+com.crm.qa.tests.loginPageTest.validateLoginPageTitleTest  Time elapsed: 0.04 s  <<< FAILURE!
+java.lang.AssertionError: expected [Free CRM #1 cloud software for any business big or small] but found [Free CRM #1 cloud software for any business large or small]
+	at com.crm.qa.tests.loginPageTest.validateLoginPageTitleTest(loginPageTest.java:33)
+
+com.crm.qa.tests.HomePageTest.tearDown  Time elapsed: 22 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATAUSER9-PC', ip: '192.168.29.200', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver
+	at com.crm.qa.tests.HomePageTest.tearDown(HomePageTest.java:47)
+

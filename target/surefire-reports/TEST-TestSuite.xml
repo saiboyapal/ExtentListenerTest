@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="130.722" tests="10" errors="0" skipped="1" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="src/main/resources/Drivers/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Sainath\EclipseProjects\crmExtentWithListener\target\test-classes;C:\Users\Sainath\EclipseProjects\crmExtentWithListener\target\classes;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Sainath\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sainath\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sainath\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Sainath\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Sainath\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Sainath\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Sainath\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Sainath\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Sainath\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Sainath\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Sainath\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Sainath\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Sainath\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Sainath\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Sainath\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Sainath\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Sainath\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Sainath\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Sainath\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Sainath\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Sainath\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Sainath\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Sainath\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Sainath\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sainath\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Sainath\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Sainath\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Sainath\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sainath\AppData\Local\Temp\surefire5020542046133420533\surefirebooter4110427040185134857.jar C:\Users\Sainath\AppData\Local\Temp\surefire5020542046133420533 2020-04-27T13-39-19_362-jvmRun1 surefire1338308588135665253tmp surefire_04107779730772409116tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Sainath\EclipseProjects\crmExtentWithListener\target\test-classes;C:\Users\Sainath\EclipseProjects\crmExtentWithListener\target\classes;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Sainath\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Sainath\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sainath\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sainath\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Sainath\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Sainath\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Sainath\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Sainath\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Sainath\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Sainath\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Sainath\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Sainath\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Sainath\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Sainath\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Sainath\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Sainath\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Sainath\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Sainath\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Sainath\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Sainath\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Sainath\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Sainath\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Sainath\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Sainath\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Sainath\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sainath\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Sainath\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Sainath\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Sainath\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sainath"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="basedir" value="C:\Users\Sainath\EclipseProjects\crmExtentWithListener"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sainath\AppData\Local\Temp\surefire5020542046133420533\surefirebooter4110427040185134857.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="Sainath"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Sainath\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sainath\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="C:\Users\Sainath\EclipseProjects\crmExtentWithListener"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_251/bin/server;C:/Program Files/Java/jre1.8.0_251/bin;C:/Program Files/Java/jre1.8.0_251/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\Sainath\scoop\shims;;C:\Users\Sainath\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="validateLoginPageTitleTest" classname="com.crm.qa.tests.loginPageTest" time="0.04">
+    <failure message="expected [Free CRM #1 cloud software for any business big or small] but found [Free CRM #1 cloud software for any business large or small]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Free CRM #1 cloud software for any business big or small] but found [Free CRM #1 cloud software for any business large or small]
+	at com.crm.qa.tests.loginPageTest.validateLoginPageTitleTest(loginPageTest.java:33)
+]]></failure>
+    <system-out><![CDATA[Test Suite started!
+this is before test
+validateLoginPageTitleTest started!
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 19228
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 27, 2020 1:39:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1588012771.671][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012771.841][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012771.969][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012772.078][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012772.194][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012772.332][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012772.672][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012772.782][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012772.964][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012773.090][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012773.248][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012773.738][SEVERE]: Timed out receiving message from renderer: 0.100
+Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 30122
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 27, 2020 1:39:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1588012795.219][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012795.323][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012795.432][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012795.564][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012795.668][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012795.775][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012795.881][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012799.910][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012800.015][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012800.127][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012800.262][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012800.371][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012800.475][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012800.588][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012800.696][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012800.823][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012800.937][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012801.057][SEVERE]: Timed out receiving message from renderer: 0.100
+Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 26121
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 27, 2020 1:40:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1588012836.698][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012836.807][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012836.938][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012837.043][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012837.174][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012837.298][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012837.403][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012837.511][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012837.620][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012837.761][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012837.872][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012837.977][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012838.083][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012838.191][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012838.300][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012838.461][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012838.569][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012838.686][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012838.799][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012838.903][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012839.013][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012839.240][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012839.344][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012839.452][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012839.557][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012839.667][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012839.790][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012839.896][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012840.009][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012840.119][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012840.245][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012840.356][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012840.464][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012840.601][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012840.731][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012840.835][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012840.940][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012841.052][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012841.161][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012841.268][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012841.379][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012841.489][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012841.598][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012841.705][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012841.815][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012841.928][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012842.077][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012842.262][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012842.364][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012842.466][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012842.569][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012842.673][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012842.805][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012842.909][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012843.013][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012843.117][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012843.225][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012843.332][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012843.437][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012843.541][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012843.651][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012843.803][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012843.908][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012844.015][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012844.121][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012844.232][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012844.338][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012844.445][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012844.559][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012844.661][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012844.765][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012844.876][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012844.983][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012845.576][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012845.865][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588012845.967][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="validateCRMLogoTest" classname="com.crm.qa.tests.loginPageTest" time="0.925"/>
+  <testcase name="validateLoginTest" classname="com.crm.qa.tests.loginPageTest" time="18.421"/>
+  <testcase name="tearDown" classname="com.crm.qa.tests.loginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateHomePageTitleTest" classname="com.crm.qa.tests.HomePageTest" time="0.007"/>
+  <testcase name="validateDealsLink" classname="com.crm.qa.tests.HomePageTest" time="0.223"/>
+  <testcase name="validateUsername" classname="com.crm.qa.tests.HomePageTest" time="0.092"/>
+  <testcase name="tearDown" classname="com.crm.qa.tests.HomePageTest" time="22">
+    <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATAUSER9-PC&apos;, ip: &apos;192.168.29.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATAUSER9-PC', ip: '192.168.29.200', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver
+	at com.crm.qa.tests.HomePageTest.tearDown(HomePageTest.java:47)
+]]></failure>
+    <system-out><![CDATA[validateContactsTable passed!
+]]></system-out>
+  </testcase>
+  <testcase name="validateHeader" classname="com.crm.qa.tests.ContactsPageTest" time="0.046"/>
+  <testcase name="validateContactsTable" classname="com.crm.qa.tests.ContactsPageTest" time="11.478"/>
+</testsuite>
